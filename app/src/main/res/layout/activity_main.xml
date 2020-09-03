@@ -50,25 +50,26 @@
         android:fontFamily="@font/rubik_bold"
         android:text="Indonesia"
         android:textColor="#fff"
-        android:textSize="40sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"/>
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
         android:src="@android:drawable/ic_dialog_info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039"
+        app:layout_constraintVertical_bias="0.038"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -78,13 +79,13 @@
         android:fontFamily="@font/rubik_bold"
         android:text="86521"
         android:textColor="@color/white"
-        android:textSize="64sp"
+        android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.246" />
+        app:layout_constraintVertical_bias="0.204" />
 
     <TextView
         android:id="@+id/textView3"
@@ -93,86 +94,86 @@
         android:fontFamily="@font/karla"
         android:text="Total Cases"
         android:textColor="@color/white"
-        android:textSize="32sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="227dp"
-        android:layout_height="229dp"
+        android:layout_width="177dp"
+        android:layout_height="145dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintVertical_bias="0.064"
         app:srcCompat="@drawable/virus" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="600dp"
-        android:layout_height="580dp"
+        android:layout_width="410dp"
+        android:layout_height="470dp"
         android:background="@drawable/radius_background_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/recovered"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.109"/>
+        app:layout_constraintVertical_bias="0.109" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/death"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.109"/>
+        app:layout_constraintVertical_bias="0.109" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/positive"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.111"/>
+        app:layout_constraintVertical_bias="0.111" />
 
-        <TextView
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/rubik_bold"
         android:text="36977"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
-        android:layout_marginBottom="20dp"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
     <TextView
         android:id="@+id/textView5"
@@ -181,7 +182,7 @@
         android:fontFamily="@font/karla"
         android:text="Positive"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
@@ -191,15 +192,15 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
         android:fontFamily="@font/rubik_bold"
         android:text="45401"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
         app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
-        android:layout_marginBottom="20sp"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
 
     <TextView
         android:id="@+id/textView7"
@@ -208,7 +209,7 @@
         android:fontFamily="@font/karla"
         android:text="Recovered"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
         app:layout_constraintStart_toStartOf="@+id/imageView9"
@@ -218,15 +219,15 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/rubik_bold"
         android:text="4143"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7"
-        android:layout_marginBottom="20dp"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
     <TextView
         android:id="@+id/textView9"
@@ -235,7 +236,7 @@
         android:fontFamily="@font/karla"
         android:text="Death"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
@@ -248,19 +249,19 @@
         android:fontFamily="@font/rubik_bold"
         android:text="Get to know more"
         android:textColor="@color/indigo2"
-        android:textSize="28sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.084"/>
+        app:layout_constraintVertical_bias="0.084" />
 
     <ImageButton
-        android:id="@+id/imageView14"
-        android:layout_width="520dp"
-        android:layout_height="119dp"
-        android:background="@drawable/radius_get_to_know_more"
+        android:id="@+id/btnLookup"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/radius_lookup"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.487"
@@ -270,20 +271,20 @@
 
     <ImageButton
         android:id="@+id/imageView12"
-        android:layout_width="520dp"
-        android:layout_height="119dp"
-        android:background="@drawable/radius_get_to_know_more"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/radius_hotline"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/btnLookup"
         app:layout_constraintVertical_bias="0.266" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="58dp"
-        android:layout_height="64dp"
+        android:layout_width="46dp"
+        android:layout_height="50dp"
         android:layout_marginStart="2dp"
         android:layout_marginBottom="15dp"
         android:src="@drawable/siren"
@@ -296,14 +297,14 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="66dp"
-        android:layout_height="79dp"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
         android:layout_marginStart="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLookup"
+        app:layout_constraintEnd_toEndOf="@+id/btnLookup"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/btnLookup"
+        app:layout_constraintTop_toTopOf="@+id/btnLookup"
         app:layout_constraintVertical_bias="0.475"
         app:srcCompat="@drawable/location" />
 
@@ -316,12 +317,12 @@
         android:fontFamily="@font/rubik_bold"
         android:text="Look Up"
         android:textColor="@color/indigo2"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLookup"
+        app:layout_constraintEnd_toEndOf="@+id/btnLookup"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/btnLookup"
         app:layout_constraintVertical_bias="0.431"
         tools:ignore="MissingConstraints" />
 
@@ -334,9 +335,9 @@
         android:fontFamily="@font/karla"
         android:text="See detail by province all"
         android:textColor="@color/greyishBrown"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLookup"
+        app:layout_constraintEnd_toEndOf="@+id/btnLookup"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toTopOf="@+id/textView11"
@@ -351,9 +352,9 @@
         android:fontFamily="@font/karla"
         android:text="over Indonesia"
         android:textColor="@color/greyishBrown"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLookup"
+        app:layout_constraintEnd_toEndOf="@+id/btnLookup"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toTopOf="@+id/textView12"
@@ -362,18 +363,18 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="23dp"
+        android:layout_height="27dp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLookup"
+        app:layout_constraintEnd_toEndOf="@+id/btnLookup"
         app:layout_constraintHorizontal_bias="0.832"
         app:layout_constraintStart_toEndOf="@+id/textView12"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/btnLookup"
         app:layout_constraintVertical_bias="0.583"
         app:srcCompat="@drawable/chevron" />
 
-        <TextView
+    <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -382,7 +383,7 @@
         android:fontFamily="@font/rubik_bold"
         android:text="Hotline"
         android:textColor="@color/indigo2"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toTopOf="@+id/imageView12" />
@@ -396,7 +397,7 @@
         android:fontFamily="@font/karla"
         android:text="Check emergency number"
         android:textColor="@color/greyishBrown"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
         app:layout_constraintHorizontal_bias="0.0"
@@ -412,7 +413,7 @@
         android:fontFamily="@font/karla"
         android:text="to contact"
         android:textColor="@color/greyishBrown"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
         app:layout_constraintHorizontal_bias="0.0"
@@ -422,8 +423,8 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
