@@ -10,10 +10,10 @@ import kotlinx.android.synthetic.main.activity_lookup.*
 class LookupActivity : AppCompatActivity() {
 
     private val mockLookUpList = mutableListOf<LookUpData>(
-        LookUpData("DKI Jakarta"),
-        LookUpData("Sumatera"),
-        LookUpData("Papua"),
-        LookUpData("Kalimantan")
+        LookUpData("DKI Jakarta", 16538, 10444,736),
+        LookUpData("Sumatera", 12345, 3200, 458),
+        LookUpData("Papua", 1236, 147, 148),
+        LookUpData("Kalimantan", 2545, 50, 150)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
