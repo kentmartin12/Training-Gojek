@@ -10,5 +10,6 @@ class LookUpViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
         itemView.tvLookUpProvinceName.text = data.provinceName
         itemView.tvLooUpConfirmedCase.text = "${data.numberOfPositiveCases}"
         itemView.tvLooUpDeathCase.text = "${data.numberOfDeathCases}"
+        itemView.tvLooUpRecoveredCase.text = "${data.numberOfRecoveredCases}"
     }
 }

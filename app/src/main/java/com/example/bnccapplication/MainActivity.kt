@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.bnccapplication.adapter.HotlineAdapter
+import kotlinx.android.synthetic.main.activity_lookup.*
 import kotlinx.android.synthetic.main.activity_main.*
+import okhttp3.OkHttpClient
 
 class MainActivity : AppCompatActivity() {
 
